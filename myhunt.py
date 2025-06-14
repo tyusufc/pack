@@ -34,7 +34,7 @@ def UpdateAutoHunt():
     if now - last_attack_time < 1.0:
         return  # Her 1 saniyede 1 kez saldırı yapsın
 
-    vid = chr.GetNearestMonsterVid()
+    vid = GetNearestMonsterVid()
     if vid == 0:
         return  # Etrafta yaratık yoksa hiçbir şey yapma
 
@@ -43,8 +43,6 @@ def UpdateAutoHunt():
     chat.AppendChat(chat.CHAT_TYPE_INFO, "⚔️ Düşmana saldırıldı.")
 
     last_attack_time = now
-
-import chr
 
 def GetNearestMonsterVid():
     vid = -1
