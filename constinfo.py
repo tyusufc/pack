@@ -123,7 +123,7 @@ def minmax(tmin, tmid, tmax):
 def intWithCommas(x, commasign='.'):
 	# alternative of
 	# return '{0:,}'.format(x).replace(',', commasign)
-	if type(x) not in [type(0), type(0L)]:
+	if not isinstance(x, int):
 		raise TypeError("Parameter must be an integer.")
 	if x < 0:
 		return '-' + intWithCommas(-x, commasign)
