@@ -193,6 +193,11 @@ SEQUENCE_PACKET_ENABLE = 1
 KEEP_ACCOUNT_CONNETION_ENABLE = 1
 MINIMAP_POSITIONINFO_ENABLE = 1
 
+# Flag for Auto Hunt mode
+StartAutoHunt = 0
+
+autohunt_bonus = 0
+
 isItemQuestionDialog = 0
 
 def GET_ITEM_QUESTION_DIALOG_STATUS():
