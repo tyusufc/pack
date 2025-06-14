@@ -194,7 +194,7 @@ KEEP_ACCOUNT_CONNETION_ENABLE = 1
 MINIMAP_POSITIONINFO_ENABLE = 1
 
 # Flag for Auto Hunt mode
-StartAutoHunt = 0
+StartAutoHunt = 0  # 0=disabled, 1=active
 
 autohunt_bonus = 0
 
