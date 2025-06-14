@@ -330,7 +330,7 @@ class AutoHunt(ui.ScriptWindow):
 			self.RefreshSlots()
 			self.SaveSettings()
 			if self.is_on == 1 and self.attack_on == 1:
-				player.UpdateAutoHunt()
+				auto_hunt.UpdateAutoHunt()
 		if self.is_on == 1 and self.skills_on == 1:
 			for i in xrange(8):
 				if self.slots_items[i][0] != -1:
