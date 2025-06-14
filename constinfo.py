@@ -196,6 +196,8 @@ MINIMAP_POSITIONINFO_ENABLE = 1
 # Flag for Auto Hunt mode
 StartAutoHunt = 0
 
+# Indicates whether the UI is locked because the
+# player activated the Auto Hunt bonus item
 autohunt_bonus = 0
 
 isItemQuestionDialog = 0
